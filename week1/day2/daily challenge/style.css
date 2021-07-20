@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  background-image: url('https://images.unsplash.com/photo-1518860000863-3adc82cce3cf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family:"Helvetica Neue";
+}
+.logo_nav{
+  width: 8%;
+}
+.topnav {
+  position: relative;
+  overflow: hidden;
+  width: 80%;
+  margin: 2% 10%;
+}
+.topnav a {
+  float: left;
+  color: #f4f1de;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  color: #be5928;
+}
+.topnav a.active {
+  background-color: #e07a5f;
+}
+.topnav-centered a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.topnav-right {
+  float: right;
+}
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+@media (max-width: 600px) {
+    body {
+        background-image: url('https://images.unsplash.com/photo-1505118380757-91f5f5632de0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=562&q=80');
+    }
+    .topnav {
+    width: 50%;
+    margin:10% auto;
+    }
+    .topnav a {
+    background-color: rgb(42, 157, 143, 0.2);
+    margin-top: 1vh;
+    }
+  }
+    .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
+h1{
+color: #f4f1de;
+text-align: center;
+margin-top:10%;
+}
+h2{
+color: red;
+text-align: center;
+margin-top:2%;
+font-weight: lighter;
+}
+p{
+color: #eae2b7;
+background-color:rgb(42, 157, 143, 0.2);
+text-align: center;
+margin-top:4%;
+padding: 5%;
+}
+ul {
+  list-style-type: none;
+  margin: 0 auto 1%;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e07a5f;
+  display: table;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #e07a5f;
+  font-weight:bolder;
+}
