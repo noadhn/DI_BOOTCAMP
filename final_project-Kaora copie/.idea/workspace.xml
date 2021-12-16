@@ -1,36 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23736271-e1be-48f3-a986-bab7c478736f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../week6/Day3/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week6/Day3/.idea/Day3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week6/Day3/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week6/Day3/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week6/Day3/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week6/Day3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week6/Day3/forLoop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week6/Day3/listPython.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week6/Day3/whileLoop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week1/day2/daily challenge/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week1/day2/daily challenge/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week1/day2/ex1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week1/day2/ex1/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week1/day2/hotdog-landing-page/flex_index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week1/day2/hotdog-landing-page/flex_style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week1/day4/cv/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/day4/cv/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week1/day4/cv/inspiration/noa.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week1/day4/cv/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/day4/cv/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week2/Day5/PortfolioProject/index2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week2/Day5/PortfolioProject/main2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week2/Day5/PortfolioProject/portfolio_setup/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3/Day1/ex.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3/Day2/ex.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3/Day2/ex.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3/Day3/course_ex.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3/Day3/course_ex.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3/Day4/course_ex.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week6/Day2/DailyChallenge.py" beforeDir="false" afterPath="$PROJECT_DIR$/../week6/Day2/DailyChallenge.py" afterDir="false" />
-    </list>
+    <list default="true" id="23736271-e1be-48f3-a986-bab7c478736f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -323,6 +294,7 @@
       <workItem from="1639591861766" duration="9837000" />
       <workItem from="1639674713994" duration="1347000" />
       <workItem from="1639676068156" duration="184000" />
+      <workItem from="1639676296812" duration="307000" />
     </task>
     <servers />
   </component>
