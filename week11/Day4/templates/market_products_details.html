@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <a href="{{url_for('show_products')}}">
+     to list of products
+    </a>
+</div>
+<h1>details of: {{ product_id }}</h1>
+{% block my_code %}
+    {% for key in product %}
+        <h6>{{ key }} : {{ product[key] }}</h6>
+    {% endfor %}
+{% endblock %}
+</body>
+</html>

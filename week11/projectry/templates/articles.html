@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% for article in articles %}
+    <h1>{{article.title}}</h1>
+    <h2>{{article.author}}</h2>
+    <h3>{{article.date_published}}</h3>
+{% endfor %}
+<a href="{{ url_for('welcome') }}">home page</a>
+
+</body>
+</html>

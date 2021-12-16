@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homepage</title>
+</head>
+<body>
+    {% for poke in pokemons %}
+    <h5>Poke's name: {{ poke["name"] }}</h5>
+    {% endfor %}
+
+</body>
+</html>
