@@ -1,21 +1,21 @@
-str = input("please enter a string of 10 characters ")
-if len(str) < 10:
+import random
+user_string = input("please enter a string of 10 characters ")
+if len(user_string) < 10:
     print("string not long enough")
-elif len(str) > 10:
+elif len(user_string) > 10:
     print("string too long")
-str_array = []
-str_array[:] = str
+string_array = [] #can use also user_string[0]
+string_array[:] = user_string
 
-print('first char is '+str_array[0]+' and last char is '+str_array[len(str_array)-1])
+print('first char is ' + string_array[0] + ' and last char is ' + string_array[len(string_array) - 1])
 
 letter = 1
-for x in str_array:
-   print(str[:letter])
+for x in string_array: #can use also range
+   print(user_string[:letter])
    letter += 1
 
-import random
 def shuffled_str(str_array):
     random.shuffle(str_array)
     return str_array
 
-print("The shuffled new string is "+', '.join(shuffled_str(str_array)))
+print("The shuffled new string is " +', '.join(shuffled_str(string_array)))
