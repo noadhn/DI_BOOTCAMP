@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="../static/images/logoex.png">
+    <link href="../static/style.css" rel="stylesheet">
+    <script type='text/javascript' src='../static/js.js'></script>
+    <title>Kaora | try</title>
+   </head>
+<body>
+<div class="content_nav">
+        <div class="navigation">
+            <div class="container">
+                <div class="nav_bar">
+
+                    <div class="logo-toggle-container">
+                        <a href='{{ url_for("index") }}'>
+                            <img src="../static/images/logoex.png" alt="">
+                        </a>
+                        <span class="toggle-box">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </div>
+
+                    <ul class="menu">
+                        <li><a href="{{ url_for('index') }}">About</a></li>
+                        <li><a href="#">Travel</a></li>
+                        <li><a href="{{ url_for('gallery') }}">Gallery</a></li>
+                        <li><a href="{{ url_for('login') }}">Login</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="content_about">
+  <div class="mom_img">
+    <img src="" alt="">
+  </div>
+  <div class="container-1">
+    <div class="box-1">
+      <h3>I'm Helene Dahan.</h3>
+      <p>I was born in Paris, and made my Aliya.<br>
+      I find my daily happiness in creation.</p>
+    </div>
+    <div class="box-2">
+    </div>
+    <div class="box-3">
+      <h1>Let's talk!</h1>
+      <p>You can contact me by phone, Whatsapp or Messenger<br><br>
+          <span style="font-weight: 500">+972-52-453-4888</span><br><br><span style="font-weight: 500">Helene Dahan</span> on Facebook
+      </p>
+    </div>
+  </div>
+
+  <div class="container-2">
+    <div class="box-4"></div>
+    <div class="box-5"></div>
+  </div>
+
+    <div class="container-3">
+  <div class="container-3-box">
+    <h3>WORKSHOPS</h3>
+    </div>
+  <div class="container-3-box">
+    <h3>PRIVATE SALES</h3>
+    </div>
+  <div class="container-3-box">
+    <h3>EVENTS</h3>
+  </div>
+  <div class="container-3-box">
+    <h3>WEEKLY LESSONS</h3>
+  </div>
+</div>
+
+</div>
+
+</body>
+</html>
